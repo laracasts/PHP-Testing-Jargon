@@ -1,0 +1,22 @@
+{
+	"name": "jeffreyway/example-1",
+	"authors": [
+		{
+			"name": "Jeffrey Way",
+			"email": "jeffrey@jeffrey-way.com"
+		}
+	],
+	"require": {
+		"phpunit/phpunit": "^9.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Tests\\": "tests/"
+		}
+	}
+}
