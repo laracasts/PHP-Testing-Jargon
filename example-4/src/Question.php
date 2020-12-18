@@ -25,6 +25,11 @@ class Question
         return $this->correct = $answer === $this->solution;
     }
 
+    public function answered()
+    {
+        return isset($this->answer);
+    }
+
     public function solved()
     {
         return $this->correct;
