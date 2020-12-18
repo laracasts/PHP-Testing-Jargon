@@ -24,7 +24,7 @@ class TagParserTest extends TestCase
         return [
             ["personal", ["personal"]],
             ["personal, money, family", ["personal", "money", "family"]],
-            ["personal, money, family", ["personal", "money", "family"]],
+            ["personal,money,family", ["personal", "money", "family"]],
             ["personal | money | family", ["personal", "money", "family"]],
             ["personal|money|family", ["personal", "money", "family"]],
             ["personal!money!family", ["personal", "money", "family"]],
