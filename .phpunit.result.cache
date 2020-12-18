@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":204:{a:2:{s:7:"defects";a:1:{s:66:"Tests\QuizTest::it_correctly_tracks_the_next_question_in_the_queue";i:4;}s:5:"times";a:1:{s:66:"Tests\QuizTest::it_correctly_tracks_the_next_question_in_the_queue";d:0.005;}}}
